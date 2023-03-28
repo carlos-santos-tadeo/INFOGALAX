@@ -18,7 +18,7 @@ const ContainerInfo = ({ quote, handleNewQuote }) => {
 
       <article className='containerInfo__author'>
         {/* muestro la fuente */}
-        <h4>Fuente: {quote.author}</h4>
+        <h4>Source: {quote.author}</h4>
       </article>
     </section>
   )

@@ -2,24 +2,23 @@
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 15px 8px 4px rgb(38, 138, 155);
   text-transform: uppercase;
   position: absolute;
-  top: 20px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 
 .containerInfo__author {
-
-  width: 230px;
-  height: 160px;
+  width: 315px;
+  height: 250px;
+  font-size: 11px;  
   background-image: url("/images/planet.png");
   color: white;
-  font-size: 8px;
   font-family: 'Orbitron', sans-serif;
   background-size: cover;
   position: absolute;
@@ -37,9 +36,9 @@ h4{
 
 .containerInfo__phrase {
   padding: 5px;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Orbitron', sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -47,29 +46,30 @@ h4{
   background: linear-gradient(180deg, #ffffff 0%, rgba(94, 204, 186, 0.413) 100%);
   color: var(--blue);
   border-radius: 25px;
-  height: 90px;
-  max-width: 270px;
+  height: 130px;
+  max-width: 280px;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
 
   .containerInfo__title {
-    font-size: 35px;
+    font-size: 55px;
   }
   
   
   .containerInfo__author {
   
-    width: 300px;
-    height: 230px;
+    width: 430px;
+    height: 290px;
     font-size: 11px;  
   }
   
   .containerInfo__phrase {
-    padding: 10px;
-    font-size: 15px;
-    height: 150px;
-    max-width: 325px;
+    padding: 15px;
+    font-size: 21px;
+    height: 220px;
+    max-width: 460px;
   }
   
 }
