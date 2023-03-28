@@ -1,0 +1,18 @@
+.button {
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/button.png") ;
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;	
+
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border-width: 0;
+}
+.button:hover{
+  background-image: url("/images/button2.png") ;
+  transition: 400ms;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+:root{
+  --blue: #25063F;
+}
+
+body {
+  margin: 0;
+  cursor: url(/images/cursor.png), auto;
+}
+
+.button{
+  cursor: url(/images/xplosion1.png), auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  margin: 0;
+}
